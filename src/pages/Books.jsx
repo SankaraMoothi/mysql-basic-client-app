@@ -39,7 +39,7 @@ const Books = () => {
             {book.cover && <img src={book.cover} alt="" />}
             <h2>{book.title}</h2>
             <p>{book.desc}</p>
-            <span>{book.price}</span>
+            <span>${book.price}</span>
             <button onClick={() => handleDelete(book.id)} className="delete">
               delete
             </button>
